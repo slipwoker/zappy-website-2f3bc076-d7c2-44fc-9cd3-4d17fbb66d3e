@@ -16,6 +16,10 @@ https://example.com/services
 ### צור קשר
 https://example.com/contact
 
+### מה אנשים אומרים על StressLess
+https://example.com/testimonials
+StressLess - מה אנשים אומרים על StressLess
+
 ## Legal & Policy
 
 ### Privacy Policy
