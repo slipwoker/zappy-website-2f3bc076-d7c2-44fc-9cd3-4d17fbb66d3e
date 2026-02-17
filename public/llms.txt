@@ -1,47 +1,58 @@
-# Business — Generative Engine Optimization Map
+# StressLess — Generative Engine Optimization Map
+
+> A בריאות ורווחה business.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://stressless.zappy5.app
 
 ### אודות
-https://example.com/about
+https://stressless.zappy5.app/about
 
 ### שירותים
-https://example.com/services
+https://stressless.zappy5.app/services
 
 ### צור קשר
-https://example.com/contact
+https://stressless.zappy5.app/contact
 
 ### מה אנשים אומרים על StressLess
-https://example.com/testimonials
+https://stressless.zappy5.app/testimonials
 StressLess - מה אנשים אומרים על StressLess
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://stressless.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://stressless.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://stressless.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About StressLess
+StressLess is a business in the בריאות ורווחה industry.
+
+## Target Audience
+- אנשי מקצוע עסוקים
+- אנשים עם מודעות לבריאות
+
+## Industry
+בריאות ורווחה
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://stressless.zappy5.app/sitemap.xml
+- **Robots.txt**: https://stressless.zappy5.app/robots.txt
