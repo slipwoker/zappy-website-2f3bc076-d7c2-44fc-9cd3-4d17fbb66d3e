@@ -6338,6 +6338,268 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+/* ═══════════════════════════════════════════════════════════
+   V2 REGENERATED SECTION CSS (בית-gallery)
+   Added: 2026-02-17T09:56:20.698Z
+   ═══════════════════════════════════════════════════════════ */
+.stressless-gallery-section {
+  background-color: #FAF7F3;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke='rgba(43,36,54,0.06)' stroke-width='1'%3E%3Cpath d='M0 20 H80'/%3E%3Cpath d='M0 40 H80'/%3E%3Cpath d='M0 60 H80'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 80px 80px;
+  color: var(--text-dark);
+  padding: 80px 16px;
+  position: relative;
+  overflow: visible;
+  direction: rtl;
+}
+
+.stressless-gallery-section .stressless-gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.stressless-gallery-section .stressless-gallery-header {
+  text-align: center;
+  margin-bottom: 60px;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.stressless-gallery-section .stressless-gallery-title {
+  font-family: 'Frank Ruhl Libre', 'David Libre', serif;
+  font-size: 48px;
+  line-height: 1.2;
+  color: var(--text-dark);
+  margin-bottom: 16px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.stressless-gallery-section .stressless-gallery-subtitle {
+  font-family: 'Frank Ruhl Libre', 'David Libre', serif;
+  font-size: 22px;
+  line-height: 1.4;
+  color: var(--primary);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.stressless-gallery-section .stressless-gallery-intro {
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-dark);
+  max-width: 680px;
+  margin-inline: auto;
+}
+
+.stressless-gallery-section .stressless-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  align-items: start;
+  position: relative;
+}
+
+.stressless-gallery-section .stressless-gallery-feature-card {
+  background: rgba(250, 247, 243, 0.92);
+  border: 1px solid rgba(43, 36, 54, 0.08);
+  border-radius: 0px;
+  padding: 32px 24px;
+  text-align: center;
+  transition: transform 240ms ease, box-shadow 240ms ease;
+  position: relative;
+  z-index: 2;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stressless-gallery-section .stressless-gallery-feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 36px rgba(43, 33, 70, 0.20);
+}
+
+.stressless-gallery-section .stressless-feature-icon-wrapper {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(91, 46, 255, 0.1) 0%, rgba(0, 191, 166, 0.1) 100%);
+  border-radius: 50%;
+  color: var(--primary);
+}
+
+.stressless-gallery-section .stressless-feature-icon {
+  width: 36px;
+  height: 36px;
+}
+
+.stressless-gallery-section .stressless-feature-title {
+  font-family: 'Heebo', sans-serif;
+  font-size: 22px;
+  line-height: 1.4;
+  color: var(--text-dark);
+  font-weight: 600;
+  margin: 0;
+}
+
+.stressless-gallery-section .stressless-gallery-image-wrapper {
+  grid-column: span 2;
+  position: relative;
+  z-index: 3;
+}
+
+.stressless-gallery-section .stressless-gallery-image-frame {
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  background: #FFFFFF;
+  padding: 12px 12px 34px;
+  border-radius: 3px;
+  box-shadow: 0 26px 60px rgba(43, 33, 70, 0.26);
+  border: 1px solid rgba(43, 36, 54, 0.10);
+  transform: rotate(-2deg);
+  transition: transform 240ms ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.stressless-gallery-section .stressless-gallery-image-frame:hover {
+  transform: rotate(0deg) scale(1.02);
+}
+
+.stressless-gallery-section .stressless-gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+  display: block;
+}
+
+.stressless-gallery-section .stressless-image-overlay {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  bottom: 34px;
+  background: linear-gradient(180deg, rgba(0, 191, 166, 0) 0%, rgba(0, 191, 166, 0.15) 100%);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+.stressless-gallery-section .stressless-card-1 {
+  grid-column: 1;
+  margin-top: 40px;
+}
+
+.stressless-gallery-section .stressless-card-2 {
+  grid-column: 2;
+  margin-top: 0;
+}
+
+.stressless-gallery-section .stressless-card-3 {
+  grid-column: 3;
+  margin-top: 0;
+}
+
+.stressless-gallery-section .stressless-card-4 {
+  grid-column: 4;
+  margin-top: 40px;
+}
+
+.stressless-gallery-section .stressless-gallery-decorative-shape {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+.stressless-gallery-section .stressless-shape-1 {
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, rgba(91, 46, 255, 0.15) 0%, transparent 70%);
+  top: 10%;
+  right: -40px;
+  border-radius: 50%;
+}
+
+.stressless-gallery-section .stressless-shape-2 {
+  width: 220px;
+  height: 220px;
+  background: radial-gradient(circle, rgba(0, 191, 166, 0.12) 0%, transparent 70%);
+  bottom: 10%;
+  left: -60px;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .stressless-gallery-section {
+    padding: 60px 16px;
+  }
+
+  .stressless-gallery-section .stressless-gallery-title {
+    font-size: 32px;
+  }
+
+  .stressless-gallery-section .stressless-gallery-subtitle {
+    font-size: 18px;
+  }
+
+  .stressless-gallery-section .stressless-gallery-header {
+    margin-bottom: 40px;
+  }
+
+  .stressless-gallery-section .stressless-gallery-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+
+  .stressless-gallery-section .stressless-gallery-image-wrapper {
+    grid-column: 1 !important;
+  }
+
+  .stressless-gallery-section .stressless-card-1,
+  .stressless-gallery-section .stressless-card-2,
+  .stressless-gallery-section .stressless-card-3,
+  .stressless-gallery-section .stressless-card-4 {
+    grid-column: 1 !important;
+    margin-top: 0 !important;
+  }
+
+  .stressless-gallery-section .stressless-gallery-feature-card {
+    padding: 24px 20px;
+    min-height: auto;
+  }
+
+  .stressless-gallery-section .stressless-gallery-image-frame {
+    min-height: 300px;
+    transform: rotate(-1deg);
+  }
+
+  .stressless-gallery-section .stressless-feature-icon-wrapper {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 16px;
+  }
+
+  .stressless-gallery-section .stressless-feature-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .stressless-gallery-section .stressless-shape-1,
+  .stressless-gallery-section .stressless-shape-2 {
+    display: none;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
