@@ -30,6 +30,227 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-stats-section {
+  position: relative;
+  overflow: visible;
+  background-color: #FAF7F3;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke='rgba(43,36,54,0.06)' stroke-width='1'%3E%3Cpath d='M0 20 H80'/%3E%3Cpath d='M0 40 H80'/%3E%3Cpath d='M0 60 H80'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 80px 80px;
+  color: var(--text-dark);
+  padding: 80px 16px;
+}
+
+.home-stats-section .home-stats-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.home-stats-section .home-stats-header {
+  text-align: center;
+  margin-bottom: 60px;
+  max-width: 900px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.home-stats-section .home-stats-header h2 {
+  font-family: 'Frank Ruhl Libre', 'David Libre', serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  letter-spacing: -0.02em;
+}
+
+.home-stats-section .home-stats-header h3 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--text-dark);
+  margin-bottom: 16px;
+  opacity: 0.9;
+}
+
+.home-stats-section .home-stats-tagline {
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.home-stats-section .home-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.home-stats-section .home-stats-card {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--border-light);
+  border-radius: 16px;
+  padding: 40px 24px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 10px 22px rgba(43, 33, 70, 0.08);
+}
+
+.home-stats-section .home-stats-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.home-stats-section .home-stats-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 36px rgba(43, 33, 70, 0.16);
+  border-color: var(--primary);
+}
+
+.home-stats-section .home-stats-card:hover::before {
+  opacity: 1;
+}
+
+.home-stats-section .home-stats-card-primary {
+  background: linear-gradient(135deg, rgba(91, 46, 255, 0.08) 0%, rgba(0, 191, 166, 0.06) 100%), rgba(255, 255, 255, 0.95);
+  border-color: var(--primary);
+}
+
+.home-stats-section .home-stats-card-primary::before {
+  opacity: 1;
+}
+
+.home-stats-section .home-stats-icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  border-radius: 50%;
+  color: var(--text-light);
+  box-shadow: 0 8px 20px rgba(91, 46, 255, 0.25);
+}
+
+.home-stats-section .home-stats-card:nth-child(2) .home-stats-icon {
+  background: linear-gradient(135deg, var(--secondary) 0%, var(--accent) 100%);
+  box-shadow: 0 8px 20px rgba(0, 191, 166, 0.25);
+}
+
+.home-stats-section .home-stats-card:nth-child(3) .home-stats-icon {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);
+  box-shadow: 0 8px 20px rgba(255, 176, 0, 0.25);
+}
+
+.home-stats-section .home-stats-card:nth-child(4) .home-stats-icon {
+  display: none;
+}
+
+.home-stats-section .home-stats-number {
+  font-family: 'Frank Ruhl Libre', 'David Libre', serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--primary);
+  margin-bottom: 12px;
+  letter-spacing: -0.03em;
+}
+
+.home-stats-section .home-stats-card:nth-child(2) .home-stats-number {
+  color: var(--secondary);
+}
+
+.home-stats-section .home-stats-card:nth-child(3) .home-stats-number {
+  color: var(--accent);
+}
+
+.home-stats-section .home-stats-label {
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-dark);
+  font-weight: 500;
+}
+
+.home-stats-section .home-stats-decorative-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.home-stats-section .home-stats-decorative-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .home-stats-section {
+    padding: 60px 16px;
+  }
+
+  .home-stats-section .home-stats-header {
+    margin-bottom: 40px;
+  }
+
+  .home-stats-section .home-stats-header h2 {
+    font-size: 28px;
+  }
+
+  .home-stats-section .home-stats-header h3 {
+    font-size: 18px;
+  }
+
+  .home-stats-section .home-stats-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  .home-stats-section .home-stats-card {
+    padding: 32px 20px;
+  }
+
+  .home-stats-section .home-stats-icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 20px;
+  }
+
+  .home-stats-section .home-stats-number {
+    font-size: 40px;
+  }
+
+  .home-stats-section .home-stats-label {
+    font-size: 15px;
+  }
+}
+</style>
 <!-- Zappy Analytics -->
 <script>
 (function() {
@@ -279,16 +500,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
   <button class="phone-header-btn" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
   
@@ -308,7 +529,7 @@
 </nav>
   
   <main>
-    <section class="home-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim" id="zappy-section-1771314256329-5961" style="position: relative; overflow: hidden; background-image: linear-gradient(rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23)), url(&quot;assets/business-general-hero-upload-1771315035453-us54jx.webp?v=1771315036656&quot;); background-size: cover; background-position: center; background-repeat: no-repeat; --zappy-bg-overlay: rgba(0, 0, 0, 0.23); --zappy-bg-image: url(&quot;assets/business-general-hero-upload-1771315035453-us54jx.webp?v=1771315036656&quot;); --zappy-bg-color: #5B2EFF" data-zappy-bg-type="image" data-zappy-bg-color data-zappy-bg-image="assets/business-general-hero-upload-1771315035453-us54jx.webp?v=1771315036656" data-zappy-bg-overlay-color="#000000" data-zappy-bg-overlay-opacity="23" data-zappy-bg-video-type data-zappy-bg-video-url>
+    <section class="home-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim" id="zappy-section-1771314256329-5961" style="position: relative; overflow: hidden; background-image: linear-gradient(rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23)), url(&quot;assets/business-general-hero-upload-1771315035453-us54jx.webp?v=1771315036656&quot;); background-size: cover; background-position: center; background-repeat: no-repeat; --zappy-bg-overlay: rgba(0, 0, 0, 0.23); --zappy-bg-image: url(&quot;assets/business-general-hero-upload-1771315035453-us54jx.webp?v=1771315036656&quot;); --zappy-bg-color: #5B2EFF" data-zappy-bg-type="image" data-zappy-bg-color="" data-zappy-bg-image="assets/business-general-hero-upload-1771315035453-us54jx.webp?v=1771315036656" data-zappy-bg-overlay-color="#000000" data-zappy-bg-overlay-opacity="23" data-zappy-bg-video-type="" data-zappy-bg-video-url="">
   <!-- Background Image Layer -->
   <div class="home-hero-bg-wrapper" style="display: none" data-zappy-original-bg="hidden">
     <img data-hero-bg="true" data-placeholder="home-hero-image-1" data-context="Artistic close-up photograph of flowing natural fabric or textile in gentle motion near water, soft muted tones with lavender and aqua hints, serene and breathable atmosphere, shallow depth of field, organic textures, calming wellness aesthetic for stress relief business, high-quality editorial photography" width="1920" height="1080" src="/assets/site-home-hero-image-1.webp" alt="תנועת בד טבעי ליד מים - אווירה רגועה ומרגיעה" class="home-hero-bg-image zappy-editable-image">
@@ -323,17 +544,17 @@
   <!-- Content Overlay Group -->
   <div class="home-hero-content-wrapper" style="position: relative; z-index: 2">
     <div class="home-hero-content-group">
-      <h1 class="home-hero-headline" style><font color="#ffffff">
+      <h1 class="home-hero-headline" style=""><font color="#ffffff">
 
  תוכנית StressLess
 
 </font></h1>
-      <h3 class="home-hero-subtitle" style>גישה מקצועית ונגישה לשחרור לחצים</h3>
-      <p class="home-hero-description" style><b style><font color="#ffffff">&nbsp; ההזדמנות שלך להפסיק להתעורר עם דופק מואץ&nbsp;</font><font color="#b3b3b3">&nbsp;</font></b></p>
+      <h3 class="home-hero-subtitle" style="">גישה מקצועית ונגישה לשחרור לחצים</h3>
+      <p class="home-hero-description" style=""><b style=""><font color="#ffffff">&nbsp; ההזדמנות שלך להפסיק להתעורר עם דופק מואץ&nbsp;</font><font color="#b3b3b3">&nbsp;</font></b></p>
       
       <!-- Breath Line Separator -->
       <svg class="home-hero-breath-line" aria-hidden="true" viewBox="0 0 280 24" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0,12 Q70,4 140,12 T280,12" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.4"/>
+        <path d="M0,12 Q70,4 140,12 T280,12" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.4"></path>
       </svg>
 
       <div class="home-hero-cta-row">
@@ -348,17 +569,17 @@
     <svg aria-hidden="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="home-hero-lavender-fade" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" style="stop-color:rgba(237,230,242,0.3);stop-opacity:1"/>
-          <stop offset="50%" style="stop-color:rgba(237,230,242,0.75);stop-opacity:1"/>
-          <stop offset="100%" style="stop-color:rgba(237,230,242,1);stop-opacity:1"/>
+          <stop offset="0%" style="stop-color:rgba(237,230,242,0.3);stop-opacity:1"></stop>
+          <stop offset="50%" style="stop-color:rgba(237,230,242,0.75);stop-opacity:1"></stop>
+          <stop offset="100%" style="stop-color:rgba(237,230,242,1);stop-opacity:1"></stop>
         </linearGradient>
       </defs>
-      <path d="M0,120 L0,40 Q300,30 600,50 T1200,60 L1200,120 Z" fill="url(#home-hero-lavender-fade)"/>
+      <path d="M0,120 L0,40 Q300,30 600,50 T1200,60 L1200,120 Z" fill="url(#home-hero-lavender-fade)"></path>
     </svg>
   </div>
 </section>
 
-<section class="home-services-section" data-layout-spec="בית-services" id="zappy-section-1" style>
+<section class="home-services-section" data-layout-spec="בית-services" id="zappy-section-1" style="">
   <div class="home-services-container">
     <div class="home-services-content">
       <h2 class="home-services-title">
@@ -366,16 +587,16 @@
   מרב לוטם גאה להציג את...
 
 </h2>
-      <h3 class="home-services-subtitle" style>
+      <h3 class="home-services-subtitle" style="">
 
 התוכנית הדיגיטלית לשחרור מגורם המוות מספר 1 ... בעולם!
 
 </h3>
-      <h3 style><b>ההזדמנות שלך להפסיק להתעורר עם דופק מואץ<br></b><b>ותחושת כישלון, להתחיל סוף סוף לישון טוב,<br></b><b>להירגע באמת, ולהחזיר לעצמך שקט בגוף ובנפש!</b><b><br></b><b><br></b><b>אם אתם מזדהים עם התסמינים הבאים, זה לא סתם לחץ&nbsp;</b><b>זאת קריאת אזעקה של הגוף שלכם.</b></h3>
+      <h3 style=""><b>ההזדמנות שלך להפסיק להתעורר עם דופק מואץ<br></b><b>ותחושת כישלון, להתחיל סוף סוף לישון טוב,<br></b><b>להירגע באמת, ולהחזיר לעצמך שקט בגוף ובנפש!</b><b><br></b><b><br></b><b>אם אתם מזדהים עם התסמינים הבאים, זה לא סתם לחץ&nbsp;</b><b>זאת קריאת אזעקה של הגוף שלכם.</b></h3>
       
       <div class="home-services-list">
         <div class="home-services-item">
-          <h4 class="home-services-item-title" style>
+          <h4 class="home-services-item-title" style="">
 
 קושי להירדם או שינה לא רצופה,&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; עייפות מתמשכת גם לאחר שינה, דופק מואץ
 
@@ -385,7 +606,7 @@
         <div class="home-services-separator"></div>
         
         <div class="home-services-item">
-          <h4 class="home-services-item-title" style>
+          <h4 class="home-services-item-title" style="">
 
 נשירת שיער, עור עייף, נטייה לחולי, קוצר נשימה קל או צורך לנשום עמוק, תחושת ריקנות פנימית
 
@@ -395,7 +616,7 @@
         <div class="home-services-separator"></div>
         
         <div class="home-services-item">
-          <h4 class="home-services-item-title" style>
+          <h4 class="home-services-item-title" style="">
 
 
 
@@ -422,17 +643,17 @@
   
   <div class="home-services-divider-wrapper">
     <svg aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,45 Q15,42 30,46 T60,43 Q75,47 90,42 T120,45 Q135,43 150,47 T180,44 Q195,46 210,43 T240,46 Q255,44 270,47 T300,45 Q315,46 330,44 T360,47 Q375,45 390,46 T420,44 Q435,47 450,45 T480,46 Q495,44 510,47 T540,45 Q555,46 570,44 T600,47 Q615,45 630,46 T660,44 Q675,47 690,45 T720,46 Q735,44 750,47 T780,45 Q795,46 810,44 T840,47 Q855,45 870,46 T900,44 Q915,47 930,45 T960,46 Q975,44 990,47 T1020,45 Q1035,46 1050,44 T1080,47 Q1095,45 1110,46 T1140,44 Q1155,47 1170,45 T1200,46 L1200,80 Z" fill="#FAF7F3" filter="url(#shadow)"/>
+      <path d="M0,80 L0,45 Q15,42 30,46 T60,43 Q75,47 90,42 T120,45 Q135,43 150,47 T180,44 Q195,46 210,43 T240,46 Q255,44 270,47 T300,45 Q315,46 330,44 T360,47 Q375,45 390,46 T420,44 Q435,47 450,45 T480,46 Q495,44 510,47 T540,45 Q555,46 570,44 T600,47 Q615,45 630,46 T660,44 Q675,47 690,45 T720,46 Q735,44 750,47 T780,45 Q795,46 810,44 T840,47 Q855,45 870,46 T900,44 Q915,47 930,45 T960,46 Q975,44 990,47 T1020,45 Q1035,46 1050,44 T1080,47 Q1095,45 1110,46 T1140,44 Q1155,47 1170,45 T1200,46 L1200,80 Z" fill="#FAF7F3" filter="url(#shadow)"></path>
       <defs>
         <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
-          <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
-          <feOffset dx="0" dy="2" result="offsetblur"/>
+          <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+          <feOffset dx="0" dy="2" result="offsetblur"></feOffset>
           <feComponentTransfer>
-            <feFuncA type="linear" slope="0.15"/>
+            <feFuncA type="linear" slope="0.15"></feFuncA>
           </feComponentTransfer>
           <feMerge>
-            <feMergeNode/>
-            <feMergeNode in="SourceGraphic"/>
+            <feMergeNode></feMergeNode>
+            <feMergeNode in="SourceGraphic"></feMergeNode>
           </feMerge>
         </filter>
       </defs>
@@ -440,72 +661,69 @@
   </div>
 </section>
 
-<section class="home-stats-section" data-layout-spec="בית-stats" id="temp-section-1771317416785">
+<section class="home-stats-section" data-layout-spec="בית-stats" data-zappy-section="true">
   <div class="home-stats-container">
-    <div class="home-stats-intro">
-      <h2 class="home-stats-title">הגיע הזמן לבחור בעצמכם ולהחזיר לעצמכם את החיים!</h2>
-      <h3 class="home-stats-subtitle">בתוכנית StressLESS אני חושפת בפניכם את הסודות הנטורופתיים להפחתת וניהול הסטרס כדי שתוכלו לקבל בחזרה את השליטה בחיים</h3>
-      <p class="home-stats-description">להחזיר לעצמכם שינה עמוקה, אנרגיה יציבה ולהרגיש שוב שחזרתם לעצמכם</p>
+    <div class="home-stats-header">
+      <h2>הגיע הזמן לבחור בעצמכם ולהחזיר לעצמכם את החיים!</h2>
+      <h3>בתוכנית StressLESS אני חושפת בפניכם את הסודות הנטורופתיים להפחתת וניהול הסטרס כדי שתוכלו לקבל בחזרה את השליטה בחיים</h3>
+      <p class="home-stats-tagline">להחזיר לעצמכם שינה עמוקה, אנרגיה יציבה ולהרגיש שוב שחזרתם לעצמכם</p>
     </div>
-    
-    <div class="home-stats-metrics-wrapper">
-      <div class="home-stats-metrics-grid">
-        <div class="home-stats-metric-card">
-          <div class="home-stats-metric-number">12</div>
-          <div class="home-stats-metric-label">דקות ממוצעות לתרגול</div>
+
+    <div class="home-stats-grid">
+      <div class="home-stats-card home-stats-card-primary">
+        <div class="home-stats-icon">
+          <svg data-element-type="icon" data-icon-type="svg" width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+          </svg>
         </div>
-        
-        <div class="home-stats-metric-card">
-          <div class="home-stats-metric-number">89%</div>
-          <div class="home-stats-metric-label">דיווחו על שיפור ברוגע</div>
-        </div>
-        
-        <div class="home-stats-metric-card">
-          <div class="home-stats-metric-number">4.2</div>
-          <div class="home-stats-metric-label">פעמים בשבוע בממוצע</div>
-        </div>
-        
-        <div class="home-stats-metric-card">
-          <div class="home-stats-metric-number">76%</div>
-          <div class="home-stats-metric-label">עקביות שבועית</div>
-        </div>
+        <div class="home-stats-number">89%</div>
+        <div class="home-stats-label">דיווחו על שיפור ברוגע</div>
       </div>
-      
-      <div class="home-stats-breath-graph">
-        <svg aria-hidden="true" viewBox="0 0 1000 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0,30 Q50,15 100,20 T200,25 Q250,18 300,22 T400,28 Q450,20 500,24 T600,26 Q650,22 700,25 T800,23 Q850,20 900,24 T1000,30" fill="none" stroke="var(--primary)" stroke-width="2" opacity="0.6"/>
-        </svg>
+
+      <div class="home-stats-card">
+        <div class="home-stats-icon">
+          <svg data-element-type="icon" data-icon-type="svg" width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"></circle>
+            <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <div class="home-stats-number">4.2</div>
+        <div class="home-stats-label">פעמים בשבוע בממוצע</div>
+      </div>
+
+      <div class="home-stats-card">
+        <div class="home-stats-icon">
+          <svg data-element-type="icon" data-icon-type="svg" width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 11.08V12C21.9988 14.1564 21.3005 16.2547 20.0093 17.9818C18.7182 19.7088 16.9033 20.9725 14.8354 21.5839C12.7674 22.1953 10.5573 22.1219 8.53447 21.3746C6.51168 20.6273 4.78465 19.2461 3.61096 17.4371C2.43727 15.628 1.87979 13.4881 2.02168 11.3363C2.16356 9.18455 2.99721 7.13631 4.39828 5.49706C5.79935 3.85781 7.69279 2.71537 9.79619 2.24013C11.8996 1.76489 14.1003 1.98232 16.07 2.86" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <div class="home-stats-number">76%</div>
+        <div class="home-stats-label">עקביות שבועית</div>
+      </div>
+
+      <div class="home-stats-card">
+        <div class="home-stats-number">25</div>
+        <div class="home-stats-label">דקות ממוצעות לתרגול</div>
       </div>
     </div>
   </div>
-  
-  <div class="home-stats-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+
+  <div class="home-stats-decorative-wrapper">
+    <svg class="home-stats-decorative-svg" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <defs>
-        <linearGradient id="home-stats-divider-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" style="stop-color:var(--border-light);stop-opacity:1"/>
-          <stop offset="40%" style="stop-color:var(--border-light);stop-opacity:1"/>
-          <stop offset="60%" style="stop-color:var(--border-light);stop-opacity:0.4"/>
-          <stop offset="100%" style="stop-color:var(--primary);stop-"/>
+        <linearGradient id="statsGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:var(--primary);stop-opacity:0.08"></stop>
+          <stop offset="100%" style="stop-color:var(--secondary);stop-opacity:0.05"></stop>
         </linearGradient>
-        <radialGradient id="home-stats-radial-pool" cx="100%" cy="50%" r="50%">
-          <stop offset="0%" style="stop-color:var(--primary);stop-opacity:0.08"/>
-          <stop offset="100%" style="stop-color:var(--primary);stop-"/>
-        </radialGradient>
+        <linearGradient id="statsGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:var(--accent);stop-opacity:0.06"></stop>
+          <stop offset="100%" style="stop-color:var(--primary);stop-opacity:0.04"></stop>
+        </linearGradient>
       </defs>
-      
-      <!-- Solid line portion -->
-      <line x1="0" y1="20" x2="480" y2="20" stroke="url(#home-stats-divider-gradient)" stroke-width="1"/>
-      
-      <!-- Dotted segments -->
-      <line x1="500" y1="20" x2="520" y2="20" stroke="var(--border-light)" stroke-width="1" opacity="0.6"/>
-      <line x1="540" y1="20" x2="560" y2="20" stroke="var(--border-light)" stroke-width="1" opacity="0.5"/>
-      <line x1="580" y1="20" x2="600" y2="20" stroke="var(--border-light)" stroke-width="1" opacity="0.4"/>
-      <line x1="620" y1="20" x2="640" y2="20" stroke="var(--border-light)" stroke-width="1" opacity="0.3"/>
-      <line x1="660" y1="20" x2="680" y2="20" stroke="var(--border-light)" stroke-width="1" opacity="0.2"/>
-      
-      <!-- Radial gradient pool -->
-      <rect x="700" y="0" width="500" height="40" fill="url(#home-stats-radial-pool)"/>
+      <circle cx="200" cy="150" r="180" fill="url(#statsGrad1)"></circle>
+      <circle cx="1000" cy="650" r="220" fill="url(#statsGrad2)"></circle>
+      <path d="M300,400 Q500,300 700,400 T1100,400" stroke="var(--border-light)" stroke-width="2" fill="none" opacity="0.3"></path>
     </svg>
   </div>
 </section>
@@ -553,11 +771,11 @@
     <svg aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="waveGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" style="stop-color:#EDE6F2;stop-opacity:1"/>
-          <stop offset="100%" style="stop-color:#16151A;stop-opacity:1"/>
+          <stop offset="0%" style="stop-color:#EDE6F2;stop-opacity:1"></stop>
+          <stop offset="100%" style="stop-color:#16151A;stop-opacity:1"></stop>
         </linearGradient>
       </defs>
-      <path d="M0,100 L0,50 Q100,45 200,52 T400,48 Q500,52 600,45 T800,50 Q900,48 1000,52 T1200,50 L1200,100 Z" fill="url(#waveGradient)"/>
+      <path d="M0,100 L0,50 Q100,45 200,52 T400,48 Q500,52 600,45 T800,50 Q900,48 1000,52 T1200,50 L1200,100 Z" fill="url(#waveGradient)"></path>
     </svg>
   </div>
 </section>
@@ -573,9 +791,9 @@
         <a href="/services" class="home-cta-btn home-cta-btn-secondary">למידע על השירותים</a>
       </div>
       <svg class="home-cta-breath-line" aria-hidden="true" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
-        <path d="M10,20 Q30,10 50,20 T90,20 Q110,10 130,20 T170,20 Q180,15 190,20" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.4"/>
-        <circle cx="10" cy="20" r="2" fill="currentColor" opacity="0.6"/>
-        <circle cx="190" cy="20" r="2" fill="currentColor" opacity="0.6"/>
+        <path d="M10,20 Q30,10 50,20 T90,20 Q110,10 130,20 T170,20 Q180,15 190,20" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.4"></path>
+        <circle cx="10" cy="20" r="2" fill="currentColor" opacity="0.6"></circle>
+        <circle cx="190" cy="20" r="2" fill="currentColor" opacity="0.6"></circle>
       </svg>
     </div>
   </div>
